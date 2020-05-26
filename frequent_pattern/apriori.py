@@ -1,7 +1,7 @@
 """ Apriori algorithm"""
 from time import time
 
-from trandataset import *
+from .trandataset import *
 
 
 def apriori(dataset, support):

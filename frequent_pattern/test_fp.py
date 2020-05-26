@@ -1,9 +1,9 @@
 from time import time
 
-from fpgrowth import FP_growth
-from trandataset import FrequentItemSet, read_csv
-from fptree import FPTree, FPTransaction
-from apriori import apriori
+from .fpgrowth import FP_growth
+from .trandataset import FrequentItemSet, read_csv
+from .fptree import FPTree, FPTransaction
+from .apriori import apriori
 
 start = time()
 

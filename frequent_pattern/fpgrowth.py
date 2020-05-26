@@ -1,5 +1,5 @@
 """ FP growth """
-from fptree import FPTree, FPTransaction
+from .fptree import FPTree, FPTransaction
 
 
 def FP_growth(tree: FPTree, itemset: FPTransaction, min_support):

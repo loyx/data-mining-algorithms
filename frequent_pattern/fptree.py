@@ -2,7 +2,7 @@
 from collections.abc import Sequence
 from itertools import combinations
 from typing import List, Iterator, Optional
-from trandataset import Transaction
+from .trandataset import Transaction
 
 
 class Node:
